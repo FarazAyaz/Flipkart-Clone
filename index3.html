@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Full Page Container -->
+<div class="bg-gray-100">
+
+    <!-- Navbar -->
+    <header class="bg-blue-600 text-white shadow-md sticky top-0 z-50">
+      <div class="container mx-auto px-4 flex items-center justify-between py-2">
+        <!-- Logo -->
+        <div class="text-2xl font-bold">Flipkart</div>
+        
+        <!-- Search Bar -->
+        <div class="flex items-center bg-white rounded-lg overflow-hidden shadow-sm w-1/2">
+          <input
+            type="text"
+            placeholder="Search for products, brands, and more"
+            class="flex-grow px-4 py-2 text-sm text-gray-700 focus:outline-none"
+          />
+          <button class="bg-blue-500 px-4 py-2 text-white">Search</button>
+        </div>
+        
+        <!-- User & Cart -->
+        <div class="flex items-center gap-4">
+          <button class="bg-blue-700 px-4 py-2 rounded-md">Login</button>
+          <div class="cursor-pointer">More</div>
+          <div class="cursor-pointer">Cart</div>
+        </div>
+      </div>
+    </header>
+  
+    <!-- Hero Section -->
+    <section class="bg-white">
+      <div class="container mx-auto px-4 py-6 grid grid-cols-3 gap-4">
+        <div class="col-span-2">
+          <img
+            src="cover2.jpg"
+            alt="Banner"
+            class="w-full h-auto rounded-lg"
+          />
+        </div>
+        <div class="space-y-4">
+          <img
+            src="clothes1.jpeg"
+            alt="Small Banner 1"
+            class="w-full h-auto rounded-lg"
+          />
+          <img
+            src="https://via.placeholder.com/400x150"
+            alt="Small Banner 2"
+            class="w-full h-auto rounded-lg"
+          />
+        </div>
+      </div>
+    </section>
+  
+    <!-- Categories Section -->
+    <section class="bg-white py-6">
+      <div class="container mx-auto px-4">
+        <h2 class="text-xl font-semibold mb-4">Top Categories</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4">
+          <!-- Category Card -->
+          <div class="flex flex-col items-center bg-gray-100 p-4 rounded-lg hover:shadow-md">
+            <img
+              src=""
+              alt="Category"
+              class="w-20 h-20 mb-2"
+            />
+            <p class="text-sm font-medium">Electronics</p>
+          </div>
+          <!-- Repeat for other categories -->
+        </div>
+      </div>
+    </section>
+  
+    <!-- Product Listings -->
+    <section class="bg-white py-6">
+      <div class="container mx-auto px-4">
+        <h2 class="text-xl font-semibold mb-4">Best Deals</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+          <!-- Product Card -->
+          <div
+            class="bg-white border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Product"
+              class="w-full h-40 object-contain mb-4"
+            />
+            <h3 class="text-sm font-medium text-gray-800">Product Name</h3>
+            <p class="text-sm text-green-600 font-bold">₹999</p>
+            <p class="text-xs text-gray-500 line-through">₹1,299</p>
+            <p class="text-xs text-gray-500">Rating: ★★★★☆</p>
+          </div>
+          <!-- Repeat for more products -->
+        </div>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white py-6">
+      <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div>
+          <h3 class="font-bold mb-3">About</h3>
+          <p class="text-sm">Contact Us</p>
+          <p class="text-sm">About Flipkart</p>
+          <p class="text-sm">Careers</p>
+        </div>
+        <!-- Repeat Footer Sections -->
+      </div>
+    </footer>
+  
+  </div>
+  
+</body>
+</html>
