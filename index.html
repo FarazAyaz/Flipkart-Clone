@@ -8,13 +8,13 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="">
     <nav
-        class="flex gap-10 items-center  h-[10%] justify-between items-center p-3 ml-[20px] mr-[20px] border border-1 border-gray-200 top-0 sticky bg-white">
+        class="flex gap-10 items-center  h-[10%] justify-between items-center p-3 ml-[20px] mr-[20px] border border-1 border-gray-200 top-0 sticky bg-white max-md:bg-red-400 max-sm:bg-green-400 max-lg:bg-yellow-400 ">
         <div>
             <img src="logo.svg" alt="">
         </div>
-        <div class="flex border border-2 border-gray-200 w-[600px] gap-2 rounded-md h-[40px] items-center">
+        <div class="flex  max-sm:hidden border border-2 border-gray-200 w-[600px] gap-2 rounded-md h-[40px] items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6 ml-[5px]">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -46,7 +46,7 @@
                 <p class="hover:font-bold hover:border hover:border-white  cursor-pointer">Cart</p>
 
             </div>
-            <div class="flex items-center gap-2 text-lg font-medium text-black">
+            <div class="flex items-center gap-2 text-lg font-medium text-black max-sm:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-[30px]">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -62,7 +62,7 @@
     <div class="bg-gray-200 w-[100vw]  border-2 border-gray-200 p-3">
         <div class="bg-white flex flex-wrap justify-center gap-10">
             <div class="  p-2 space-y-2">
-                <img src="images/key.jpeg" alt="" class="h-[70px] w-[100px] object-contain hover:scale-[110%] transition-all duration-200">
+                <img src="/images/key.jpeg" alt="" class="h-[70px] w-[100px] object-contain hover:scale-[110%] transition-all duration-200">
                 <p class="text-center text-md hover hover:font-bold hover:border hover:border-white  cursor-pointer">
                     Keyboard</p>
 
@@ -113,7 +113,7 @@
             <div class="p-3">
                 <h1 class="font-medium text-2xl hover:font-bold hover:border hover:border-white  cursor-pointer mb-[20px]">BEAUTY, CLOTHES, TOYS & more</h1>
                 <div class="flex justify-between flex-wrap">
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/toy2.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>MOTOR TOY</p>
@@ -121,7 +121,7 @@
                         </div>
 
                     </div>
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/toy.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>BABY TOY</p>
@@ -130,7 +130,7 @@
 
                     </div>
 
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/clothes2.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>4 PIECE FOR MEN</p>
@@ -139,7 +139,7 @@
 
                     </div>
 
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/beauty1.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>OLAY WHITENING CREAM</p>
@@ -148,7 +148,7 @@
 
                     </div>
 
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/beauty2.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer ">
                             <p>FACE WASH</p>
@@ -156,7 +156,7 @@
                         </div>
 
                     </div>
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/clothes1.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>BLUE T SHIRT</p>
@@ -170,9 +170,9 @@
         </div>
         <!-- the div starts here -->
         <div class="bg-white m-[20px]  p-3 space-y-2">
-            <h1 class="font-medium  text-2xl hover:font-bold hover:border hover:border-white  cursor-pointer">Beauty,
+            <h1 class="font-medium  text-2xl hover:font-bold hover:border hover:border-white  cursor-pointer bg-red-400">Beauty,
                 Style, Toys & more</h1>
-            <div class="grid grid-cols-6 gap-3">
+            <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-3">
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
                     <div class="flex-1 overflow-hidden">
                         <img src="images/beauty1.jpeg" alt="" class="w-full h-full object-contain hover:scale-[110%] transition-all duration-200">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/head.jpeg" alt="" class="w-full h-full object-contain hover:scale-[110%] transition-all duration-200">
                     </div>
                     <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/microphone.jpeg" alt="" class="w-full h-full object-contain hover:scale-[110%] transition-all duration-200">
                     </div>
                     <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer ">
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/iphone16plus.jpeg" alt="" class="w-full h-full object-contain hover:scale-[110%] transition-all duration-200">
                     </div>
                     <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/key.jpeg" alt="" class="w-full h-full object-contain hover:scale-[110%] transition-all duration-200">
                     </div>
                     <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -251,7 +251,7 @@
                         </div>
 
                     </div>
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/key.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>LIGHTNING KEYBOARD</p>
@@ -260,7 +260,7 @@
 
                     </div>
 
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/coei10.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                             <p>HP LAPTOP</p>
@@ -269,7 +269,7 @@
 
                     </div>
 
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/tennis.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>TENNIS</p>
@@ -278,7 +278,7 @@
 
                     </div>
 
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/iphone16plus.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer ">
                             <p>IPHONE 16 PRO MAX</p>
@@ -286,7 +286,7 @@
                         </div>
 
                     </div>
-                    <div class="border-2 border-gray-300">
+                    <div class="border-2 border-gray-300 overflow-hidden">
                         <img src="images/toy.jpeg" alt="" class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div class="text-center hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>BABY TOYS</p>
@@ -312,14 +312,14 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4 ">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/clothes1.jpeg" alt="" class="hover:scale-[110%] transition-all duration-200">
                         <div class="ml-[25%] hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>Men's Shirt</p>
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/clothes1.jpeg" alt="" class="hover:scale-[110%] transition-all duration-200">
                         <div class="ml-[25%] hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>Men's Shirt</p>
@@ -327,14 +327,14 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/clothes1.jpeg" alt="" class="hover:scale-[110%] transition-all duration-200">
                         <div class="ml-[25%] hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>Men's Shirt</p>
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] b order border-2 border-gray-300">
+                    <div class="p-3 w-[200px] b order border-2 border-gray-300 overflow-hidden">
                         <img src="images/clothes1.jpeg" alt="" class="hover:scale-[110%] transition-all duration-200">
                         <div class="ml-[25%] hover:font-bold hover:border hover:border-white  cursor-pointer">
                             <p>Men's Shirt</p>
@@ -365,7 +365,7 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/head.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -373,7 +373,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/iphone8plus.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -382,7 +382,7 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/key.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -390,7 +390,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/motorcycles.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -414,7 +414,7 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4 ">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/cricket.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -422,7 +422,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/tennis.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -431,7 +431,7 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/ball.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -439,7 +439,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/hardball.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -463,7 +463,7 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4 ">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch.jpg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -471,7 +471,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch2.png" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -480,7 +480,7 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch3.jpg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -488,7 +488,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch4.jpg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -505,7 +505,7 @@
                 Style, Toys & more</h1>
             <div class="grid grid-cols-6 gap-3">
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/iphone8plus.jpeg" alt=""
                             class="w-full h-full object-contain hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                     </div>
@@ -516,7 +516,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/head.jpeg" alt=""
                             class="w-full h-full object-contain hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                     </div>
@@ -527,7 +527,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/microphone.jpeg" alt=""
                             class="w-full h-full object-contain hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                     </div>
@@ -538,7 +538,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/iphone16plus.jpeg" alt=""
                             class="w-full h-full object-contain hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                     </div>
@@ -549,7 +549,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-center border-2 border-gray-300 ">
-                    <div class="flex-1 ">
+                    <div class="flex-1 overflow-hidden">
                         <img src="images/key.jpeg" alt=""
                             class="w-full h-full object-contain hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                     </div>
@@ -586,7 +586,7 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/head.jpeg" alt=""
                             class="h-[116px] w-[170px] object-contain hover:font-bold hover:border hover:border-white  cursor-pointer hover:scale-[110%] transition-all duration-200">
                         <div
@@ -595,7 +595,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/iphone8plus.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -604,7 +604,7 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/key.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -612,7 +612,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/motorcycles.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -636,7 +636,7 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4 ">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/cricket.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -644,7 +644,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/tennis.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -653,7 +653,7 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/ball.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -661,7 +661,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/hardball.jpeg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -685,7 +685,7 @@
 
                 </div>
                 <div class="flex flex-1 flex-wrap gap-4 p-4 ">
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch.jpg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -693,7 +693,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch2.png" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -702,7 +702,7 @@
                         </div>
 
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch3.jpg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
@@ -710,7 +710,7 @@
                             <p class="font-bold text-green-500">Min. 50% Off</p>
                         </div>
                     </div>
-                    <div class="p-3 w-[200px] border border-2 border-gray-300">
+                    <div class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden">
                         <img src="images/watch4.jpg" alt="" class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200">
                         <div
                             class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white  cursor-pointer">
