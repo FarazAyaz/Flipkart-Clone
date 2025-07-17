@@ -1,0 +1,24 @@
+{
+  "name": "flipkart-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarazAyaz/Flipkart-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarazAyaz/Flipkart-Clone/issues"
+  },
+  "homepage": "https://github.com/FarazAyaz/Flipkart-Clone#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
