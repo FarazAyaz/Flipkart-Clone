@@ -7,11 +7,11 @@
   </head>
   <body class="">
     <nav
-      class="flex gap-10 items-center h-[10%] justify-between items-center p-3 ml-[20px] mr-[20px] border border-1 border-gray-200 top-0 sticky bg-white max-md:bg-red-400 max-sm:bg-green-400 max-lg:bg-yellow-400 z-[2]"
+      class="flex items-start md:items-center h-[10%] justify-between p-3 ml-[20px] mr-[20px] border border-1 border-gray-200 top-0 sticky bg-white z-[2]"
     >
-      <div>
-        <img src="/logo.svg" alt="" />
-      </div>
+
+        <img src="/logo.svg" alt="Flipkart Logo" class="h-8 w-8 sm:h-12 sm:w-12 md:h-16 md:w-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24 object-contain max-w-full max-h-full" style="display:block;" />
+     
       <div
         class="flex max-sm:hidden border border-2 border-gray-200 w-[600px] gap-2 rounded-md h-[40px] items-center"
       >
@@ -205,7 +205,7 @@
         </div>
       </div>
 
-      <div class="mt-[20px]">
+      <div class="mt-[20px] ">
         <img
           src="/src/public/cover2.jpg"
           alt=""
@@ -213,8 +213,8 @@
         />
       </div>
       <!-- main  -->
-      <div class="bg-white m-[20px]">
-        <div class="p-3">
+      <div class=" bg-white flex flex-col md:flex-row" ">
+        <div class="p-3  w-full md:w-[40%] lg:w-[30%]">
           <h1
             class="font-medium text-2xl hover:font-bold hover:border hover:border-white cursor-pointer mb-[20px]"
           >
@@ -308,17 +308,17 @@
         </div>
       </div>
       <!-- the div starts here -->
-      <div class="bg-white m-[20px] p-3 space-y-2">
+      <div class="bg-white  p-3 space-y-2 mt-[30px] flex flex-col md:flex-row w-full md:w-[40%] lg:w-[30%] max-sm:mx-auto">
         <h1
           class="font-medium text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
         >
           Beauty, Style, Toys & more
         </h1>
         <div
-          class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-3"
+          class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-3 "
         >
           <div
-            class="flex flex-col items-center justify-center border-2 border-gray-300"
+            class="flex flex-col items-center justify-center border-2 border-gray-300 "
           >
             <div class="flex-1 overflow-hidden">
               <img
@@ -424,8 +424,8 @@
       <!-- the div closes here -->
       <!-- 3 div starts here -->
 
-      <div class="bg-white m-[20px]">
-        <div class="p-3">
+      <div class="mt-[30px] bg-white flex flex-col  md:flex-row">
+        <div class="p-3 w-full md:w-[40%] lg:w-[30%] ">
           <h1
             class="font-medium text-2xl hover:font-bold hover:border hover:border-white cursor-pointer mb-[20px]"
           >
@@ -438,7 +438,7 @@
               <img
                 src="/src/public/iphone8plus.jpeg"
                 alt=""
-                class="w-[230px] h-[260px] object-contain hover:scale-[110%] transition-all duration-200 max-sm:h-[160px]"
+                class="object-contain w-full max-h-[250px] md:max-h-[350px] rounded-lg"
               />
               <div
                 class="text-center hover:font-bold hover:border hover:border-white cursor-pointer"
@@ -519,14 +519,14 @@
         </div>
       </div>
       <!-- 3 div end here -->
-      <div class="mt-[30px] bg-white flex ">
-        <div
-          class="w-[30%] "
-        >
+      <div class="mt-[30px] bg-white flex  md:flex-row items-center justify-between border border-yellow-400 ">
+        <!-- Winter Essentials For You -->
+        <div class="w-[60%] md:w-[40%] lg:w-[20%] flex flex-col gap-12 p-3">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px] max-sm:ml-0"
-          >
-            <p class="font-bold text-2xl ">Winter Essentials For You</p>
+            class="flex  justify-between p-4  border border-2 border-black ml-0 md:ml-[10px] "        >
+            <p class="font-bold text-xl md:text-2xl">
+              Winter Essentials For You
+            </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -542,62 +542,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-10 p-2 sm:p-4 border border-black ">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden max-sm:w-[150px] max-sm:h-[160px] max-sm:grid-cols-2 max-sm:grid"
+              class="p-2 sm:p-3 border border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/clothes1.jpeg"
                 alt=""
-                class="hover:scale-[110%] transition-all duration-200"
+                class=" sm:h-[120px] md:h-[140px] object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] hover:font-bold hover:border hover:border-white cursor-pointer max-sm:ml-0"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Men's Shirt</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border border-2 border-gray-300 overflow-hidden flex flex-col items-center w-[250px]  h-[200px]"
             >
               <img
                 src="/src/public/clothes1.jpeg"
                 alt=""
-                class="hover:scale-[110%] transition-all duration-200"
+                class=" sm:h-[120px] md:h-[140px] object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Men's Shirt</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border border-2 border-gray-300 overflow-hidden flex flex-col items-center w-[250px]  h-[200px]"
             >
               <img
                 src="/src/public/clothes1.jpeg"
                 alt=""
-                class="hover:scale-[110%] transition-all duration-200"
+                class=" sm:h-[120px] md:h-[140px] object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Men's Shirt</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] b order border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border border-2 border-gray-300 overflow-hidden flex flex-col items-center w-[250px]  h-[200px]"
             >
               <img
                 src="/src/public/clothes1.jpeg"
                 alt=""
-                class="hover:scale-[110%] transition-all duration-200"
+                class=" sm:h-[120px] md:h-[140px] object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Men's Shirt</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -605,21 +605,26 @@
             </div>
           </div>
         </div>
-        <div class="w-[70%] ml-[10px]">
+        <div
+          class="w-[300px] h-[300px] md:w-[60%] lg:w-[50%] mt-4 md:mt-0 md:ml-[10px]"
+        >
           <img
             src="/src/public/cover2.jpg"
             alt=""
-            class="object-contain max-sm:hidden"
+            class="object-cover w-[300px]  max-h-[250px] md:max-h-[350px] rounded-lg  "
           />
         </div>
       </div>
-      <div class="flex gap-4 bg-white justify-between mt-[20px]">
-        <div class="w-[30%]">
+      <!-- // div 4  -->
+      <div
+        class="grid grid-cols-3 items-center md:flex-row gap-4 bg-white justify-between mt-[20px]">
+        <!-- Best Gadgets & Appliances -->
+        <div class="w-full md:w-1/3 mb-6 md:mb-0">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px]"
+            class="flex justify-between items-center p-4 border border-gray-300 ml-0 md:ml-[10px]"
           >
             <p
-              class="font-bold text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
+              class="font-bold text-xl md:text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
             >
               Best Gadgets & Appliances
             </p>
@@ -638,62 +643,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-3 p-2 sm:p-4">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/head.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Headphones</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/iphone8plus.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>IPHONE 8 PLUS</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/key.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Keyboard</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/motorcycles.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Motorcycle</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -701,12 +706,13 @@
             </div>
           </div>
         </div>
-        <div class="w-[30%]">
+        <!-- Sports & Fitness Essentials -->
+        <div class="w-full md:w-1/3 mb-6 md:mb-0">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px]"
+            class="flex justify-between items-center p-4 border border-gray-300 ml-0 md:ml-[10px]"
           >
             <p
-              class="font-bold text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
+              class="font-bold text-xl md:text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
             >
               Sports & Fitness Essentials
             </p>
@@ -725,62 +731,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-3 p-2 sm:p-4">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/cricket.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Cricket Bat</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/tennis.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Tennis</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/ball.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Tennis Balls</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/hardball.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Cricket Hardball</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -788,12 +794,13 @@
             </div>
           </div>
         </div>
-        <div class="w-[30%]">
+        <!-- Branded Watches -->
+        <div class="w-full md:w-1/3">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px]"
+            class="flex justify-between items-center p-4 border border-gray-300 ml-0 md:ml-[10px]"
           >
             <p
-              class="font-bold text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
+              class="font-bold text-xl md:text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
             >
               Branded Watches
             </p>
@@ -812,62 +819,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-3 p-2 sm:p-4">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch.jpg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Rolex Watch</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch2.png"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Rado</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch3.jpg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Seiko Watch</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch4.jpg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Casio Watch</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -876,7 +883,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="bg-white m-[20px] p-3 space-y-2">
         <h1
           class="font-medium text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
@@ -988,13 +995,16 @@
           </div>
         </div>
       </div>
-      <div class="flex gap-4 bg-white justify-between mt-[20px]">
-        <div class="w-[30%]">
+      <div
+        class="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 max-sm:grid-cols-1 gap-4 bg-white justify-between mt-[20px]"
+      >
+        <!-- Best Gadgets & Appliances -->
+        <div class="w-full md:w-1/3 mb-6 md:mb-0">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px]"
+            class="flex justify-between items-center p-4 border border-gray-300 ml-0 md:ml-[10px]"
           >
             <p
-              class="font-bold text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
+              class="font-bold text-xl md:text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
             >
               Best Gadgets & Appliances
             </p>
@@ -1013,62 +1023,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-3 p-2 sm:p-4">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/head.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:font-bold hover:border hover:border-white cursor-pointer hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Headphones</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/iphone8plus.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>IPHONE 8 PLUS</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/key.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Keyboard</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/motorcycles.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Motorcycle</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -1076,12 +1086,13 @@
             </div>
           </div>
         </div>
-        <div class="w-[30%]">
+        <!-- Sports & Fitness Essentials -->
+        <div class="w-full md:w-1/3 mb-6 md:mb-0">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px]"
+            class="flex justify-between items-center p-4 border border-gray-300 ml-0 md:ml-[10px]"
           >
             <p
-              class="font-bold text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
+              class="font-bold text-xl md:text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
             >
               Sports & Fitness Essentials
             </p>
@@ -1100,62 +1111,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-3 p-2 sm:p-4">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/cricket.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Cricket Bat</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/tennis.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Tennis</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/ball.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Tennis Balls</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/hardball.jpeg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Cricket Hardball</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -1163,12 +1174,13 @@
             </div>
           </div>
         </div>
-        <div class="w-[30%]">
+        <!-- Branded Watches -->
+        <div class="w-full md:w-1/3">
           <div
-            class="flex justify-between items-center p-4 border border-1 border-gray-300 ml-[10px]"
+            class="flex justify-between items-center p-4 border border-gray-300 ml-0 md:ml-[10px]"
           >
             <p
-              class="font-bold text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
+              class="font-bold text-xl md:text-2xl hover:font-bold hover:border hover:border-white cursor-pointer"
             >
               Branded Watches
             </p>
@@ -1187,62 +1199,62 @@
               />
             </svg>
           </div>
-          <div class="flex flex-1 flex-wrap gap-4 p-4">
+          <div class="grid grid-cols-2 gap-3 p-2 sm:p-4">
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch.jpg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Rolex Watch</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch2.png"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Rado</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch3.jpg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Seiko Watch</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
               </div>
             </div>
             <div
-              class="p-3 w-[200px] border border-2 border-gray-300 overflow-hidden"
+              class="p-2 sm:p-3 border-2 border-gray-300 overflow-hidden flex flex-col items-center"
             >
               <img
                 src="/src/public/watch4.jpg"
                 alt=""
-                class="h-[116px] w-[170px] object-contain hover:scale-[110%] transition-all duration-200"
+                class="h-[100px] sm:h-[120px] md:h-[140px] w-full object-contain hover:scale-[110%] transition-all duration-200"
               />
               <div
-                class="ml-[25%] space-y-2 mt-[10px] hover:font-bold hover:border hover:border-white cursor-pointer"
+                class="mt-2 text-center hover:font-bold hover:border hover:border-white cursor-pointer"
               >
                 <p>Casio Watch</p>
                 <p class="font-bold text-green-500">Min. 50% Off</p>
@@ -1251,10 +1263,14 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center gap-16 bg-gray-800 mt-[20px] p-6">
-        <div class="text-white">
+      <div
+        class="flex flex-col md:flex-row flex-wrap justify-center md:justify-between gap-8 md:gap-16 bg-gray-800 mt-[20px] p-4 md:p-6"
+      >
+        <div
+          class="text-white w-full md:w-auto text-center md:text-left mb-6 md:mb-0"
+        >
           <h1
-            class="font-bold text-white m-4 hover:font-bold hover:border hover:border-white cursor-pointer"
+            class="font-bold m-4 hover:font-bold hover:border hover:border-white cursor-pointer"
           >
             Get To Know Us
           </h1>
@@ -1267,7 +1283,9 @@
             <p>flipkart Devices</p>
           </div>
         </div>
-        <div class="text-white gap-3">
+        <div
+          class="text-white w-full md:w-auto text-center md:text-left mb-6 md:mb-0"
+        >
           <h1
             class="font-bold m-4 hover:font-bold hover:border hover:border-white cursor-pointer"
           >
@@ -1283,7 +1301,9 @@
             <p>Host an flipkart Hub</p>
           </div>
         </div>
-        <div class="text-white gap-3">
+        <div
+          class="text-white w-full md:w-auto text-center md:text-left mb-6 md:mb-0"
+        >
           <h1
             class="font-bold m-4 hover:font-bold hover:border hover:border-white cursor-pointer"
           >
@@ -1296,7 +1316,7 @@
             <p>flipkart Currency Converter</p>
           </div>
         </div>
-        <div class="text-white gap-3">
+        <div class="text-white w-full md:w-auto text-center md:text-left">
           <h1
             class="font-bold m-4 hover:font-bold hover:border hover:border-white cursor-pointer"
           >
